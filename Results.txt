@@ -1,0 +1,30 @@
+Running 1000 tests...
+
+Key:    IWS: Idle work stealing     NWS: No work stealing
+PWS: Priority work stealing
+
+
+Tests where IWS decreased total cycles from NWS: 897 / 1000
+
+Tests where PWS decreased total cycles from NWS: 878 / 1000
+Tests where PWS decreased total cycles from IWS: 235 / 1000
+Average cycles saved when PWS improved over IWS: 4.99149
+Largest total-cycle improvement by PWS over IWS: 20
+
+Tests where PWS took more total cycles than NWS: 98 / 1000
+Tests where PWS took more total cycles than IWS: 503 / 1000
+Largest total-cycle loss by PWS compared to IWS: 21
+Average cycles lost when PWS was worse: 4.77734
+
+Average cycles saved by PWS compared to IWS: -1.23
+
+Tests where PWS decreased priority-finished cycles from baseline: 682 / 1000
+Average priority cycles saved by PWS compared to baseline: 6.361
+Average priority cycles saved when PWS improved priority completion: 9.32698
+Largest priority-cycle improvement by PWS: 39
+
+Average Least Cycles Possible: 67.913
+Average Most Cycles Possible: 1078.95
+Average NWS Total Cycles: 117.094
+Average IWS Total Cycles: 97.459
+Average PWS Total Cycles: 98.689

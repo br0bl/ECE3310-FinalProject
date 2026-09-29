@@ -291,7 +291,8 @@ void Run_Tester(std::vector<Worker>& workers, Cycle& simClock, int numberOfTests
 
     Initialize_TestSummary(stats);
 
-    std::cout << "\nRunning " << numberOfTests << " tests..." << std::endl << std::endl;
+    std::cout << "\nRunning " << numberOfTests << " tests..." << std::endl;
+    std::cout << "\nKey:    IWS: Idle work stealing     NWS: No work stealing\nPWS: Priority work stealing\n\n\n";
 
     for (int testNumber = 0; testNumber < numberOfTests; testNumber++) {
         int seed = startingSeed + testNumber;

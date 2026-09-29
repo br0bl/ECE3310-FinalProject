@@ -9,7 +9,7 @@
 
 using namespace std;
 
-const int numWorkers = 4;
+const int numWorkers = 8;
 
 const int numberOfTests = 1000;
 const int startingSeed = 1;
@@ -21,7 +21,7 @@ const int minPriority = 1;
 const int maxPriority = 5;
 
 const int maxCycles = 1000;
-bool demo = true;
+bool demo = false;
 
 int main() {
 
